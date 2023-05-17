@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100vw;
+  height: 70px;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+
+.blog-title {
+  color: aquamarine;
+  font-size: 23px;
+}
+
+.list {
+  padding: 30px;
+  border-bottom: 1px solid #bbb;
+  display: flex;
+}
+
+.likeBtn {
+  margin: 0px 40px 0px 10px;
+}
+
+.newWrite {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.newWrite input {
+  margin-right: 3px;
+}
